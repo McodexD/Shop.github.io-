@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Clothing Shop</title>
+</head>
+<body>
+
+    <header>
+        <h1>Your Clothing Shop</h1>
+    </header>
+
+    <nav>
+        <a class="cart-link" href="cart.html">Cart</a> <!-- Added this line -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="sale.html">Sale</a></li>
+        </ul>
+    </ul>
+    </nav>
+
+    <div class="container">
+        <div class="product-grid">
+            <!-- Sample product card -->
+            <div class="product-card">
+                <img src="sample-product.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Awesome Hoodie</h2>
+                <p class="product-price">$29.99</p>
+                <button onclick="addToCart(2)">Add to Cart</button>
+            </div>
+            <!-- Repeat this block for each product -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Your Clothing Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
